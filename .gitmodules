@@ -1,0 +1,4 @@
+[submodule "katago"]
+	path = katago
+	url = https://github.com/ChinChangYang/KataGo.git
+	branch = metal-coreml-stable

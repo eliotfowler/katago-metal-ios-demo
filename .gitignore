@@ -1,0 +1,44 @@
+# KataGoEngine sources (generated from submodule by scripts/copy_katago_files.sh)
+KataGoEngine/book/
+KataGoEngine/core/
+KataGoEngine/dataio/
+KataGoEngine/game/
+KataGoEngine/neuralnet/
+KataGoEngine/program/
+KataGoEngine/search/
+
+# Neural net weights (large files)
+*.bin.gz
+
+# Claude Code / AI tool config (not project docs)
+docs/superpowers/
+.claude/
+.cursor/
+
+# ── Xcode ─────────────────────────────────────────────────────────────────────
+# User-specific state (anywhere in the tree)
+xcuserdata/
+*.xcuserstate
+
+# Legacy per-user project settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# Xcode source-control metadata
+*.xccheckout
+*.xcscmblueprint
+
+# Build artifacts
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
