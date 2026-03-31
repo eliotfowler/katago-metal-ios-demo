@@ -29,8 +29,8 @@ KataGo's Metal backend uses Swift/C++ bidirectional interop, which CMake cannot 
 
 ```bash
 # 1. Clone with submodules
-git clone --recurse-submodules https://github.com/eliotfowler/KataGoMetalDemo.git
-cd KataGoMetalDemo
+git clone --recurse-submodules https://github.com/eliotfowler/katago-metal-ios-demo.git
+cd katago-metal-ios-demo
 
 # 2. Set up everything (submodules, source copy, weight download)
 ./scripts/setup.sh
